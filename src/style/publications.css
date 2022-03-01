@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 30px 0 10px 0;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.content {
+    top: 8vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: 20px auto;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.2);
+    max-width: 100%;
+    display: flex;
+    overflow: hidden;
+    width: 700px;
+}
+
+.card h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin: 15px 0 20px 0;
+}
+
+.info h3{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.card h6 {
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.preview {
+    background-color: rgb(230, 146, 73);
+    color: #eee;
+    padding: 30px;
+    width: 600px;
+}
+
+.info {
+    width: 100%;
+    padding: 30px 30px 0 30px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: .7;
+}
+.btn-container {
+    float: right;
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.btn {
+    background-color: rgb(230, 146, 73);
+    text-decoration: none;
+    color: #eee;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px 10px 10px 0;
+}
+
+.btn:hover {
+    background-color: #eee;
+    color: rgb(230, 146, 73);
+    border: 1px solid rgb(230, 146, 73);
+}

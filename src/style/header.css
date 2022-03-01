@@ -10,6 +10,7 @@ body {
 
 header {
     border-bottom: 1px  solid #444;
+    height: 8vh;
 }
 
 header::after {
@@ -27,7 +28,7 @@ nav {
     float: right;
 }
 
-nav ul {
+ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -63,4 +64,75 @@ nav a::before {
 
 nav a:hover::before {
     width: 100%;
+}
+
+#hamburger-icon a {
+    color: #444;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#hamburger-icon {
+    padding-top: 15px;
+    float: right;
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: #444;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.open .mobile-menu li {
+    padding-top: 50px;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    height: calc(100vh - 70px);
+    width: 100%;
+
+}
+
+.mobile-menu li {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 877px) {
+    header nav {
+        display: none;
+}
+
+#hamburger-icon {
+    display: block;
+}
 }
