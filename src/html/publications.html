@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SOAR | Publications</title>
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/publications.css">
@@ -8,7 +9,9 @@
 <body>
 <header>
     <div class="container">
-        <img src="../../Images/SOAR 16X9.jpeg" alt="logo" class="logo">
+        <div class="logo">
+            <img src="../../Images/SOAR 16X9.jpeg" alt="logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="../../index.html">Home</a></li>
@@ -32,11 +35,18 @@
 </header>
 <div class="content">
     <h1>Publications</h1>
-    <div class="card">
+    <div class="year">
+        <div id="dropdown" class="drop" onclick="toggleDropDown(this, 2022)">
+            <div class="arrow">
+                <img src="../../Images/down-arrow.png" alt="">
+            </div>
+            <h2>2022</h2>
+        </div>
+    </div>
+    <div class="card 2022" >
         <div class="preview">
             <h6>2022</h6>
             <h2>Automatic Identification of Informative Code in Stack Overflow Posts</h2>
-            
         </div>
         <div class="info">
             <h3>Preetha Chaterjee</h3>
@@ -47,7 +57,16 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="year">
+        <div id="dropdown" onclick="toggleDropDown(this, 2021)">
+            <div class="arrow">
+                <img src="../../Images/down-arrow.png" alt="">
+            </div>
+            <h2>2021</h2>
+        </div>
+    </div>
+
+    <div class="card 2021 hide">
         <div class="preview">
             <h6>2021</h6>
             <h2>Automatic Extraction of Opinion-based Q&A from Online Developer Chats</h2>
@@ -63,7 +82,7 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="card 2021 hide">
         <div class="preview">
             <h6>2021</h6>
             <h2>Automatically Identifying the Quality of Developer Chats for Post Hoc Use</h2>
@@ -78,7 +97,7 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="card 2021 hide">
         <div class="preview">
             <h6>2021</h6>
             <h2>Mining Information from Developer Chats Towards Building Software Maintenance Tools (Ph.D. Thesis)</h2>
@@ -92,7 +111,16 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="year">
+        <div id="dropdown" onclick="toggleDropDown(this, 2020)">
+            <div class="arrow">
+                <img src="../../Images/down-arrow.png" alt="">
+            </div>
+            <h2>2020</h2>
+        </div>
+    </div>
+
+    <div class="card 2020 hide">
         <div class="preview">
             <h6>2020</h6>
             <h2>Software-related Slack Chats with Disentangled Conversations</h2>
@@ -109,7 +137,7 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="card 2020 hide">
         <div class="preview">
             <h6>2020</h6>
             <h2>Extracting Archival-Quality Information from Software-Related Chats</h2>
@@ -125,7 +153,7 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="card 2020 hide">
         <div class="preview">
             <h6>2020</h6>
             <h2>Finding Help with Programming Errors: An Exploratory Study of Novice Software Engineers’ Focus in Stack Overflow Posts</h2>
@@ -141,69 +169,95 @@
         </div>
     </div>
 
-    <div class="card">
+    <div class="year">
+        <div id="dropdown" onclick="toggleDropDown(this, 2019)">
+            <div class="arrow">
+                <img src="../../Images/down-arrow.png" alt="">
+            </div>
+            <h2>2019</h2>
+        </div>
+    </div>
+
+    <div class="card 2019 hide">
         <div class="preview">
             <h6>2019</h6>
-            <h2></h2>
+            <h2>Exploratory Study of Slack Q&A Chats as a Mining Source for Software Engineering Tools</h2>
         </div>
         <div class="info">
-            <h3></h3>
-            <p></p>
+            <h3>Preetha Chatterjee, Kostadin Damevski, Lori Pollock, Vinay Augustine, and Nicholas A. Kraft</h3>
+            <p>The 16th International Conference on Mining Software Repositories (MSR), Research Track, May 2019. Montreal, Canada</p>
             <div class="btn-container">
-                <a href="" class="btn">Slides</a>
-                <a href="" class="btn">DOI</a>
-                <a href="" class="btn">Preprint</a>
+                <a href="https://preethac.github.io/files/MSR19.pdf" class="btn">Preprint</a>
+                <a href="https://dl.acm.org/citation.cfm?id=3341883.3341961" class="btn">DOI</a>
+                <a href="https://www.slideshare.net/PreethaChatterjee1/exploratory-study-of-slack-qa-chats-as-a-mining-source-for-software-engineering-tools" class="btn">Slides</a>
+                <a href="https://new.abb.com/news/detail/26145/mining-slack" class="btn">Press Coverage</a>
             </div>
         </div>
     </div>
 
-    <div class="card">
+    <div class="year">
+        <div id="dropdown" onclick="toggleDropDown(this, 2017)">
+            <div class="arrow">
+                <img src="../../Images/down-arrow.png" alt="">
+            </div>
+            <h2>2017</h2>
+        </div>
+    </div>
+
+    <div class="card 2017 hide">
         <div class="preview">
             <h6>2017</h6>
-            <h2></h2>
+            <h2>Extracting Code Segments and Their Descriptions from Research Articles</h2>
         </div>
         <div class="info">
-            <h3></h3>
-            <p></p>
+            <h3>Preetha Chatterjee, Benjamin Gause, Hunter Hedinger, and Lori Pollock</h3>
+            <p>The 14th International Conference on Mining Software Repositories (MSR), Research Track, May 2017. Buenos Aires, Argentina</p>
             <div class="btn-container">
-                <a href="" class="btn">Slides</a>
-                <a href="" class="btn">DOI</a>
-                <a href="" class="btn">Preprint</a>
+                <a href="https://preethac.github.io/files/MSR17.pdf" class="btn">Preprint</a>
+                <a href="https://ieeexplore.ieee.org/document/7962359" class="btn">DOI</a>
+                <a href="https://www.slideshare.net/PreethaChatterjee1/extracting-code-segments-and-their-descriptions-from-research-articles" class="btn">Slides</a>
             </div>
         </div>
     </div>
 
-    <div class="card">
+    <div class="card 2017 hide">
         <div class="preview">
             <h6>2017</h6>
-            <h2></h2>
+            <h2>What Information about Code Snippets Is Available in Different Software-Related Documents? An Exploratory Study</h2>
         </div>
         <div class="info">
-            <h3></h3>
-            <p></p>
+            <h3>Preetha Chatterjee, Manziba Akanda Nishi, Kostadin Damevski, Vinay Augustine, Lori Pollock, and Nicholas A. Kraft</h3>
+            <p>The 24th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER), Early Research Achievements Track, Feb 2017. Klagenfurt, Austria</p>
             <div class="btn-container">
-                <a href="" class="btn">Slides</a>
-                <a href="" class="btn">DOI</a>
-                <a href="" class="btn">Preprint</a>
+                <a href="https://preethac.github.io/files/SANER17.pdf" class="btn">Preprint</a>
+                <a href="https://ieeexplore.ieee.org/document/7884638" class="btn">DOI</a>
             </div>
         </div>
     </div>
 
-    <div class="card">
+    <div class="year">
+        <div id="dropdown" onclick="toggleDropDown(this, 2015)">
+            <div class="arrow">
+                <img src="../../Images/down-arrow.png" alt="">
+            </div>
+            <h2>2015</h2>
+        </div>
+    </div>
+
+    <div class="card hide 2015">
         <div class="preview">
             <h6>2015</h6>
-            <h2></h2>
+            <h2>Exploring the Generality of a Java-based Loop Action Model for the Quorum Programming Language (Ph.D. Preliminary Project)</h2>
         </div>
         <div class="info">
-            <h3></h3>
-            <p></p>
+            <h3>Preetha Chatterjee</h3>
+            <p>University of Delaware</p>
             <div class="btn-container">
-                <a href="" class="btn">Slides</a>
-                <a href="" class="btn">DOI</a>
-                <a href="" class="btn">Preprint</a>
+                <a href="https://arxiv.org/abs/1904.00478" class="btn">Manuscript</a>
             </div>
         </div>
     </div>
 </div>
 <script src="../js/header.js"></script>
+<script src="../js/publications.js"></script>
 </body>
