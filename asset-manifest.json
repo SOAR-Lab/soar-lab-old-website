@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/soar-lab-github.io/static/css/main.b9d76a4b.css",
+    "main.js": "/soar-lab-github.io/static/js/main.696b97d7.js",
+    "static/media/SOAR 16X9.jpeg": "/soar-lab-github.io/static/media/SOAR 16X9.2029011bea8e6f423ca6.jpeg",
+    "index.html": "/soar-lab-github.io/index.html",
+    "main.b9d76a4b.css.map": "/soar-lab-github.io/static/css/main.b9d76a4b.css.map",
+    "main.696b97d7.js.map": "/soar-lab-github.io/static/js/main.696b97d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9d76a4b.css",
+    "static/js/main.696b97d7.js"
+  ]
+}
