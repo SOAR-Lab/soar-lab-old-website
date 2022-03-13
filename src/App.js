@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './Compnents/Navbar/Navbar';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 import Publications from './Compnents/Publications';
 
 function App() {
