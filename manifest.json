@@ -4,7 +4,7 @@
     "description": "1WSQ APP",
     "display": "fullscreen",
     "start_url": "/?homescreen=1",
-    "background_color": "#000000",
+    "background_color": "#ffffff",
     "theme_color": "#0f4a73",
     "icons": [
       {
