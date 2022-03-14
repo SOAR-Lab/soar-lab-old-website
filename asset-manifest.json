@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.9702f87b.css",
-    "main.js": "/static/js/main.6e41052d.js",
+    "main.css": "/static/css/main.707f7734.css",
+    "main.js": "/static/js/main.ca77789e.js",
     "static/media/SOAR 16X9.jpeg": "/static/media/SOAR 16X9.2029011bea8e6f423ca6.jpeg",
     "index.html": "/index.html",
-    "main.9702f87b.css.map": "/static/css/main.9702f87b.css.map",
-    "main.6e41052d.js.map": "/static/js/main.6e41052d.js.map"
+    "main.707f7734.css.map": "/static/css/main.707f7734.css.map",
+    "main.ca77789e.js.map": "/static/js/main.ca77789e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9702f87b.css",
-    "static/js/main.6e41052d.js"
+    "static/css/main.707f7734.css",
+    "static/js/main.ca77789e.js"
   ]
 }
