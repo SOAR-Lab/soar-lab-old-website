@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.60b8db69.css",
-    "main.js": "/static/js/main.ca77789e.js",
+    "main.css": "/static/css/main.22d610e7.css",
+    "main.js": "/static/js/main.9c238225.js",
+    "static/media/team_cover.jpg": "/static/media/team_cover.460685fdd219dce8aa85.jpg",
+    "static/media/mock.png": "/static/media/mock.4c75106547cccee8ca2c.png",
     "static/media/SOAR 16X9.jpeg": "/static/media/SOAR 16X9.2029011bea8e6f423ca6.jpeg",
     "index.html": "/index.html",
-    "main.60b8db69.css.map": "/static/css/main.60b8db69.css.map",
-    "main.ca77789e.js.map": "/static/js/main.ca77789e.js.map"
+    "main.22d610e7.css.map": "/static/css/main.22d610e7.css.map",
+    "main.9c238225.js.map": "/static/js/main.9c238225.js.map"
   },
   "entrypoints": [
-    "static/css/main.60b8db69.css",
-    "static/js/main.ca77789e.js"
+    "static/css/main.22d610e7.css",
+    "static/js/main.9c238225.js"
   ]
 }
