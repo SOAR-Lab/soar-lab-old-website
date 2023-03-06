@@ -16,7 +16,7 @@ export const TeamMembers = [
         name: 'Ramtin Ehsani',
         picture: '/ramtine.jpeg',
         position: 'Ph.D. Student, Drexel University',
-        info: 'My name is Ramtin. I was born and raised in Iran, Tehran. My research interests lie in the intersection of software engineering, machine learning, and NLP, and I will join the SOAR lab in Fall 2022 at Drexel to start my Ph.D. studies. I\'m a passionate learner who is always energetic and eager to learn new skills, and I also love coding!',
+        info: 'My name is Ramtin. I was born and raised in Iran, Tehran. My research interests lie in the intersection of software engineering, machine learning, and NLP. I joined the SOAR lab in Winter of 2022 at Drexel to start my Ph.D. studies. I\'m a passionate learner who is always energetic and eager to learn new skills. I also love coding!',
         email: 'Ramtin.Ehsani@drexel.edu',
         github: 'https://github.com/ramtin-ehsani',
         linkedin: 'https://www.linkedin.com/in/ramtin-ehsani/',
@@ -27,14 +27,15 @@ export const TeamMembers = [
         name: ' Amirali Sajadi',
         picture: '/amiralis.jpeg',
         position: 'Ph.D. Student, Drexel University',
-        info: 'Amirali Sajadi has a Bachelor of Science in Computer Engineering and started his PhD studies in Fall 2022. Amirali\'s main research interests are in software engineering and the use of machine learning and NLP to better understand and enhance the software development process. In his free time, Amirali reads stories and philosophy.',
+        info: 'Amirali Sajadi has a Bachelor of Science in Computer Engineering and started his PhD studies in Fall 2022 at Drexel University. Amirali\'s main research interests are in software engineering and the use of machine learning and NLP to better understand and improve the software development process.',
         email: 'Amirali.sajadi@drexel.edu',
         github: 'https://github.com/AmiraliSajadi',
         linkedin: 'https://www.linkedin.com/in/amirali-sajadi-a169a821b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2Fh4IaXkJRxujk3TO9zoqUw%3D%3D',
+        googlescholar:'https://scholar.google.com/citations?user=wyZsULIAAAAJ&hl=en&oi=ao',
         website: 'https://amiralisajadi.github.io/'
     },
     {
-        div: 'Undergraduate',
+        div: 'Alumni',
         name: 'Yashasvi Jain',
         picture: '/yashasvij.jpeg',
         position: 'Undergraduate Student, Drexel University & Software Developer at Susquehanna International Group ',
@@ -44,17 +45,17 @@ export const TeamMembers = [
         linkedin: 'https://www.linkedin.com/in/yashasvi-jain/',
         website: 'https://yashasvi-jain.github.io/index.html'
     },
-    // {
-    //     div: 'Undergraduate',
-    //     name: 'Siddhanth Agrawal',
-    //     picture: '/siddhantha.jpeg',
-    //     position: 'Undergraduate Student, Drexel University',
-    //     info: 'Siddhanth is a Computer Science major and a Mathematics and Data Science Minor at Drexel University. His research interests lie in the areas of Software Engineering, Machine Learning, Algorithms, and Computational Mathematics. ',
-    //     email: 'siddhanth.agrawal@drexel.edu',
-    //     github: 'http://github.com/SiddhanthAgrawal',
-    //     linkedin: 'http://www.linkedin.com/in/siddhanth-agrawal',
-    //     website: 'https://www.cs.drexel.edu/~sa3724'
-    // },
+    {
+        div: 'Undergraduate',
+        name: 'Vanessa Martinez',
+        picture: '/vanessam.jpeg',
+        position: 'Undergraduate Student, Drexel University',
+        info: 'Vanessa Martinez is a Computer Science major with a Computer Engineering minor at Drexel University. She received her A.S. in Computer Science while in high school at Mercer County Community College. Her research interests are in software engineering, artificial intelligence, and human-computer interaction.',
+        email: 'vm557@drexel.edu',
+        github: null,
+        linkedin: 'http://www.linkedin.com/in/vanessa-martinez-5b9527265',
+        website: null
+    },
     {
         div: 'Alumni',
         name: 'Thomas Do',
