@@ -27,7 +27,7 @@ export const TeamMembers = [
         name: ' Amirali Sajadi',
         picture: '/amiralis.jpeg',
         position: 'Ph.D. Student, Drexel University',
-        info: 'Amirali Sajadi has a Bachelor of Science in Computer Engineering and will start his PhD studies in Fall 2022. Amirali\'s main research interests are in software engineering and the use of machine learning and NLP to better understand and enhance the software development process. In his free time, Amirali reads stories and philosophy.',
+        info: 'Amirali Sajadi has a Bachelor of Science in Computer Engineering and started his PhD studies in Fall 2022. Amirali\'s main research interests are in software engineering and the use of machine learning and NLP to better understand and enhance the software development process. In his free time, Amirali reads stories and philosophy.',
         email: 'Amirali.sajadi@drexel.edu',
         github: 'https://github.com/AmiraliSajadi',
         linkedin: 'https://www.linkedin.com/in/amirali-sajadi-a169a821b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2Fh4IaXkJRxujk3TO9zoqUw%3D%3D',
