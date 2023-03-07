@@ -24,7 +24,7 @@ function RenderGoogleScholar (googlescholar) {
 
 function RenderWebsite (website) {
     if (website != null)
-        return (<a href={website} target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-globe"></i></a>)
+        return (<a href={website} target="_blank" rel="noopener noreferrer"><i class="fa fa-globe" aria-hidden="true"></i></a>)
 }
 
 function Member(props) {
