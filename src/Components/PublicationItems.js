@@ -1,4 +1,32 @@
 export const PublicationItems = [{
+	title: 'Interpersonal Trust in OSS: Exploring Dimensions of Trust in GitHub Pull Requests',
+	author: 'Amirali Sajadi, Kostadin Damevski, and Preetha Chatterjee',
+	year: '2023',
+	synopsis: 'The 45th International Conference on Software Engineering (ICSE), New Ideas and Emerging Results Track, May 2023.',
+	abstract: 'Interpersonal trust plays a crucial role in facilitating collaborative tasks, such as software development. While previous research recognizes the significance of trust in an organizational setting, there is a lack of understanding in how trust is exhibited in OSS distributed teams, where there is an absence of direct, in-person communications. To foster trust and collaboration in OSS teams, we need to understand what trust is and how it is exhibited in written developer communications (e.g., pull requests, chats). In this paper, we first investigate various dimensions of trust to identify the ways trusting behavior can be observed in OSS. Next, we sample a set of 100 GitHub pull requests from Apache Software Foundation (ASF) projects, to analyze and demonstrate how each dimension of trust can be exhibited. Our findings provide preliminary insights into cues that might be helpful to automatically assess team dynamics and establish interpersonal trust in OSS teams, leading to successful and sustainable OSS.',
+	links: {
+		Preprint: 'https://preethac.github.io/files/ICSE_NIER_2023.pdf',
+		DOI: null,
+		Slides: null,
+		Manuscript: null,
+		Dataset: null
+	}
+},
+    {
+	title: 'Data Augmentation for Improving Emotion Recognition in Software Engineering Communication',
+	author: 'Mia Mohammad Imran, Yashasvi Jain, Preetha Chatterjee and Kostadin Damevski ',
+	year: '2022',
+	synopsis: 'The 37th IEEE/ACM International Conference on Automated Software Engineering (ASE), Research Track, Oct 2022. ',
+	abstract: 'Emotions (e.g., Joy, Anger) are prevalent in daily software engineering (SE) activities, and are known to be significant indicators of work productivity (e.g., bug fixing efficiency). Recent studies have shown that directly applying general purpose emotion classification tools to SE corpora is not effective. Even within the SE domain, tool performance degrades significantly when trained on one communication channel and evaluated on another (e.g, StackOverflow vs. GitHub comments). Retraining a tool with channel-specific data takes significant effort since manually annotating a large dataset of ground truth data is expensive. In this paper, we address this data scarcity problem by automatically creating new training data using a data augmentation technique. Based on an analysis of the types of errors made by popular SE-specific emotion recognition tools, we specifically target our data augmentation strategy in order to improve the performance of emotion recognition. Our results show an average improvement of 9.3% in micro F1-Score for three existing emotion classification tools (ESEM-E, EMTk, SEntiMoji) when trained with our best augmentation strategy.',
+	links: {
+		Preprint: 'https://preethac.github.io/files/ASE_2022.pdf',
+		DOI: 'https://dl.acm.org/doi/abs/10.1145/3551349.3556925',
+		Slides: 'https://www.slideshare.net/PreethaChatterjee1/data-augmentation-for-improving-emotion-recognition-in-software-engineering-communication',
+		Manuscript: null,
+		Dataset: null
+	}
+},
+    {
     title: 'DISCO: A Dataset of Discord Chat Conversations for Software Engineering Research ',
     author:'Keerthana Muthu Subash, Lakshmi Prasanna Kumar, Sri Lakshmi Vadlamani, Preetha Chatterjee and Olga Baysal',
     year:'2022',
@@ -6,10 +34,10 @@ export const PublicationItems = [{
     abstract: 'Today, software developers work on complex and fast-moving projects that often require instant assistance from other domain and subject matter experts. Chat servers such as Discord facilitate live communication and collaboration among developers all over the world. With numerous topics discussed in parallel, mining and ana- lyzing the chat data of these platforms would offer researchers and tool makers opportunities to develop software tools and services such as automated virtual assistants, chat bots, chat summarization techniques, Q&A thesaurus, and more. In this paper, we propose a dataset called DISCO consisting of the one-year public DIScord chat COnversations of four software development communities. We have collected the chat data of the channels containing general programming Q&A discussions from the four Discord servers, applied a disentanglement technique [13] to extract conversations from the chat transcripts, and performed a manual validation of conversations on a random sample (500 con- versations). Our dataset consists of 28, 712 conversations, 1, 508, 093 messages posted by 323, 562 users. As a case study on the dataset, we applied a topic modelling technique for extracting the top five general topics that are most discussed in each Discord channel.',
     links: {
         Preprint: 'https://preethac.github.io/files/MuthuSubash_MSR2022_DataShowcase.pdf',
-        DOI: null,
+        DOI: 'https://ieeexplore.ieee.org/document/9796319',
         Slides: null,
         Manuscript: null,
-        Dataset: null
+        Dataset: 'https://zenodo.org/record/5909202'
     }
 },
 {
@@ -20,8 +48,8 @@ export const PublicationItems = [{
     abstract: 'Despite Stack Overflow’s popularity as a resource for solving coding problems, identifying relevant information from an individual post remains a challenge. The overload of information in a post can make it difficult for developers to identify specific and targeted code fixes. In this paper, we aim to help users identify informative code segments, once they have narrowed down their search to a post relevant to their task. Specifically, we explore natural language- based approaches to extract problematic and suggested code pairs from a post. The goal of the study is to investigate the potential of designing a browser extension to draw the readers’ attention to relevant code segments, and thus improve the experience of software engineers seeking help on Stack Overflow.',
     links: {
         Preprint: 'https://preethac.github.io/files/NLBSE_22.pdf',
-        DOI: null,
-        Slides: null,
+        DOI: 'https://ieeexplore.ieee.org/abstract/document/9808699',
+        Slides: 'https://www.slideshare.net/PreethaChatterjee1/automatic-identification-of-informative-code-in-stack-overflow-posts',
         Manuscript: null,
         Dataset: null
     }
@@ -49,7 +77,7 @@ export const PublicationItems = [{
     links: {
         Preprint: 'https://preethac.github.io/files/TOSEM21.pdf',
         DOI: 'https://doi.org/10.1145/3450503',
-        Slides: null,
+        Slides: 'https://www.slideshare.net/PreethaChatterjee1/automatically-identifying-the-quality-of-developer-chats-for-post-hoc-use',
         Manuscript: null,
         Dataset: null
     }
