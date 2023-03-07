@@ -2,11 +2,13 @@ export const ResearchDB = [{
     title: 'Mining Information from Developer Chat Conversations Towards Building Software Maintenance Tools',
     info: 'Popular chat platforms such as Slack host public chat communities that focus on specific software development topics such as Python or Ruby-on-Rails. Many of those chat communications contain valuable information, such as description of code snippets and APIs, opinions on good programming practices, and causes of common errors/exceptions. This project aims to develop analyses for automatically identifying and extracting information in developers’ chat communications towards improving and building new tools to support software engineers.',
     links: {
-        MSR19: 'https://preethac.github.io/files/MSR19.pdf',
+        // MSR19: 'https://preethac.github.io/files/MSR19.pdf',
         MSR20: 'https://preethac.github.io/files/MSR_Data_20.pdf',
         TOSEM21: 'https://preethac.github.io/files/TOSEM21.pdf',
         ICSE21: 'https://preethac.github.io/files/ICSE21.pdf',
-        MSR22: 'https://preethac.github.io/files/MuthuSubash_MSR2022_DataShowcase.pdf'
+        MSR22: 'https://preethac.github.io/files/MuthuSubash_MSR2022_DataShowcase.pdf',
+        ASE22: 'https://preethac.github.io/files/ASE_2022.pdf',
+        NIER23: 'https://preethac.github.io/files/ICSE_NIER_2023.pdf'
     }
 },
 {
