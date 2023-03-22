@@ -1,5 +1,13 @@
 export const NewsDB = [
     {
+        time: 'December 2022',
+        news: 'Paper "Interpersonal Trust in OSS: Exploring Dimensions of Trust in GitHub Pull Requests" accepted in International Conference on Software Engineering (ICSE), New Ideas and Emerging Results Track'
+    },
+    {
+        time: 'July 2022',
+        news: 'Paper "Data Augmentation for Improving Emotion Recognition in Software Engineering Communication" accepted in International Conference on Automated Software Engineering (ASE), Research Track'
+    },
+    {
         time: 'March 2022',
         news: 'Paper "DISCO: A Dataset of Discord Chat Conversations for Software Engineering Research" accepted in the Mining Software Repositories (MSR), Data Showcase Track'
     },

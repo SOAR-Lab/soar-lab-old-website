@@ -1,5 +1,11 @@
 export const CollaboratorsDB = [
     {
+        name: 'Shadi Rezapour',
+        position: 'Assistant Professor in the Department of Information Science at Drexel\'s College of Computing and Informatics',
+        website: 'https://www.shadirezapour.com/',
+        picture: '/shadir.jpeg'
+    },
+    {
         name: 'Kostadin Damevski',
         position: 'Associate Professor at the Computer Science Department at Virginia Commonwealth University',
         website: 'https://damevski.github.io',
